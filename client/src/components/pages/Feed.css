@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&display=swap");
+
+body {
+  font-family: "Amatic SC", sans-serif;
+  background-color: #dee8b4;
+}
+
+.feed-container {
+  text-align: center;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.feed-title {
+  font-weight: 500;
+  font-size: 35px;
+  left: 944px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 138px;
+  width: 316px;
+}
+
+.images {
+  height: 573px;
+  width: 225px;
+}
+
+.leaf1 {
+  height: 573px;
+  left: 30px;
+  object-fit: cover;
+  position: fixed;
+  top: 290px;
+  width: 225px;
+}
+/* .flower-image {
+  height: 122px;
+  left: 1400px;
+  object-fit: cover;
+  position: fixed;
+  top: 470px;
+  width: 98px;
+} */
+
+.imagesflower {
+  height: 122px;
+  width: 98px;
+  position: absolute;
+  z-index: -1;
+}
+
+.Feed-to-Map {
+  background-color: #597b6c;
+  font-family: "Amatic SC", sans-serif;
+  border: none;
+  color: white;
+  /* padding: 8px 8px; */
+  width: 180px;
+  text-align: center;
+  font-size: 40px;
+  position: fixed;
+  top: 150px;
+  left: 40px;
+}
+.link-to-Map {
+  color: white;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: center;
+  opacity: 1;
+  text-decoration: none;
+  background-color: #597b6c;
+}
+
+.link-to-Map:hover,
+.link-to-Map:active {
+  font-weight: 800;
+  opacity: 0.8;
+}
+
+.button:hover {
+  font-weight: 800;
+}

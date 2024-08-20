@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&display=swap");
+
+.Card-container {
+  border: #8fa15f 1px solid;
+  border-radius: var(--xs);
+  margin-top: var(--m);
+  font-family: Caveat;
+  size: 40px;
+}
+
+.Card-container:first-of-type {
+  margin-top: var(--l);
+}
+
+.Card-image{
+  width: 350px;
+}
+
+.Card-post,
+.Card-commentSection {
+  padding: var(--m) var(--l);
+}
+
+.Card-postUser {
+  font-size: 33px;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 600;
+  color: #3f6051;
+  margin: var(--s) 0 0;
+}
+
+.Card-postContent {
+  font-size: 33px;
+  font-weight: 400;
+  margin: var(--s) 0 0;
+}
+
+.Card-commentSection {
+  background-color: #c6d4a1;
+  border-top: 1px solid #5b6838;
+  font-size: 25px;
+}
+
+.Card-commentBody {
+  margin: 0 0 var(--s);
+}
+
+.Card-commentUser {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Amatic SC", sans-serif;
+  color: #3f6051;
+  margin: var(--s) 0 0;
+}
+
+.Card-commentContent {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: Caveat;
+  color: #000000;
+  margin: var(--s) 0 0;
+}
+
+.Date {
+  font-size: 20px;
+  font-family: Caveat;
+  color: #000000;
+}

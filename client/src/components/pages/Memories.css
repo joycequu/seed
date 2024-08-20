@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&display=swap");
+
+body {
+  font-family: Caveat;
+  font-size: 33px;
+  background-color: #dee8b4;
+}
+.memo-title {
+  font-size: 50px;
+  font-weight: 500;
+}
+.gallery-scroll {
+  /* background-color: #8ea05e; */
+  height: 860px;
+  left: Opx;
+  position: absolute;
+  top: 180px;
+  width: 925px;
+  text-align: center;
+  /* font-weight: 600; */
+}
+
+.stories-in-memories {
+  font-family: Caveat;
+  font-size: 33px;
+}
+
+.flower-image {
+  height: 366px;
+  left: 1220px;
+  object-fit: cover;
+  position: fixed;
+  top: 470px;
+  width: 295px;
+}
+
+.plants-image {
+  width: 315px;
+  height: 658px;
+  left: 13px;
+  object-fit: cover;
+  position: fixed;
+  top: 198px;
+  z-index: -3;
+}

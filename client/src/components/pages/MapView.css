@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+body {
+  font-family: "Amatic SC", sans-serif;
+  background-color: #dee8b4;
+}
+
+#map {
+  height: 600px;
+  border: 1px solid black;
+}
+
+.flower-image {
+  height: 366px;
+  left: 1220px;
+  object-fit: cover;
+  position: fixed;
+  top: 470px;
+  width: 295px;
+}

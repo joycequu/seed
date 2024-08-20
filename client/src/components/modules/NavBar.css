@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+body {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 45px;
+  color: #000000;
+}
+
+.NavBar-container {
+  padding: var(--s) var(--m);
+  background-color: #adc178;
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.NavBar-container2 {
+  padding: var(--s) var(--m);
+  background-color: #adc178;
+  width: 100%;
+  position: fixed;
+}
+
+.NavBar-container2 .NavBar-link {
+  font-size: 40px;
+}
+
+button {
+  background-color: #6f823c;
+  font-family: "Amatic SC", sans-serif;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.button:hover {
+  font-weight: 800;
+  opacity: 0.8;
+}
+
+.NavBar-title {
+  color: #000000;
+  background-color: #adc178;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 70px;
+  font-weight: 1000;
+  margin-left: 20%;
+  margin-right: 5%;
+  text-decoration: None;
+}
+
+.NavBar-link,
+.NavBar-link:visited {
+  color: #000000;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: center;
+  opacity: 1;
+  text-decoration: none;
+  background-color: #adc178;
+}
+
+.NavBar-link:hover,
+.NavBar-link:active {
+  font-weight: 800;
+  opacity: 0.8;
+}
+
+.NavBar-link + .NavBar-link {
+  margin-left: var(--m);
+}

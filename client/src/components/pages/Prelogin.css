@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.pre-login-homepage {
+  background-color: #dee8b4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.centerlogo {
+  text-align: center;
+}
+
+.Profile-avatarContainer {
+  width: 340px;
+  height: 307px;
+  z-index: 1;
+}
+
+.login-button {
+  width: 321px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-button {
+  width: 321px;
+  height: 107px;
+  flex-shrink: 0;
+}
+
+.text-wrapper {
+  color: #000000ef;
+  font-family: Caveat;
+  font-size: 33px;
+  font-weight: 400;
+  left: 200px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  top: 480px;
+  z-index: 5;
+}
+
+.p-box {
+  width: 729px;
+  height: 87px;
+  flex-shrink: 0;
+  margin: var(--m) var(--s);
+  text-align: center;
+}
+.p {
+  color: #000;
+  text-align: center;
+  font-family: Caveat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.seedtotreeContainer {
+  height: 426px;
+  width: 1187px;
+  object-fit: cover;
+  /* left: 180px; */
+  top: 500px;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+}
+.copyright-SEED-web {
+  color: #000000;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 942px;
+  width: 656px;
+  align-items: center;
+}

@@ -1,0 +1,7 @@
+.App-container {
+  max-width: 960px;
+  padding: var(--m) var(--m);
+  margin: auto;
+  position: relative;
+  top: 111px;
+}
